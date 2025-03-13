@@ -12,11 +12,15 @@ Each project demonstrates various **data integration, transformation, and proces
  
 ### **SCD Type 1 using Azure data factory**
 **Project Level:** Beginner
+
 **Description:** Developed a Slowly Changing Dimension (SCD) Type 1 pipeline using Azure Data Factory (ADF) to update customer records in an Azure SQL Database. The pipeline ensures that any changes in source data overwrite existing records without maintaining historical data.
+
 **Tech Stack:** Azure Data Factory, Azure SQL Database, Azure Blob Storage.
+
 **Key Features:**
-Implemented SCD Type 1 logic to update records based on the latest source data.
-Used Mapping Data Flow in ADF to perform UPSERT (Insert/Update) operations dynamically.
-Integrated Azure Blob Storage for efficient data storage and retrieval.
-Optimized pipeline performance by using Alter Row transformation for conditional updates.
-➡️ View Project--> https://github.com/rrc0804/rrc-ade/blob/main/pl_SCD_Type1_proj.zip
+1. Implemented SCD Type 1 logic to update records based on the latest source data.
+2. Used Mapping Data Flow in ADF to perform UPSERT (Insert/Update) operations dynamically.
+3. Integrated Azure Blob Storage for efficient data storage and retrieval.
+4. Optimized pipeline performance by using Alter Row transformation for conditional updates.
+
+➡️ **View Project**--> https://github.com/rrc0804/rrc-ade/blob/main/pl_SCD_Type1_proj.zip
