@@ -19,4 +19,4 @@ Implemented SCD Type 1 logic to update records based on the latest source data.
 Used Mapping Data Flow in ADF to perform UPSERT (Insert/Update) operations dynamically.
 Integrated Azure Blob Storage for efficient data storage and retrieval.
 Optimized pipeline performance by using Alter Row transformation for conditional updates.
-➡️ View Project Folder
+➡️ View Project--> https://github.com/rrc0804/rrc-ade/blob/main/pl_SCD_Type1_proj.zip
