@@ -24,3 +24,25 @@ Each project demonstrates various **data integration, transformation, and proces
 4. Optimized pipeline performance by using Alter Row transformation for conditional updates.
 
 ➡️ **View Project**--> https://github.com/rrc0804/rrc-ade/blob/main/pl_SCD_Type1_proj.zip
+
+
+
+### **Non-Empty File Copy using Azure Data Factory**  
+**Project Level:** Beginner  
+
+**Description:**  
+Developed an Azure Data Factory (ADF) pipeline to automate the transfer of non-empty files from a source Azure Blob Storage container to a destination container. The pipeline ensures that only files containing data are copied, filtering out empty files to optimize storage and processing efficiency.  
+
+**Tech Stack:**  
+- Azure Data Factory  
+- Azure Blob Storage  
+
+**Key Features:**  
+1. **Metadata Extraction:** Retrieves a list of files from the source container.  
+2. **File Content Validation:** Uses a Lookup activity to check if the file contains data.  
+3. **Conditional Processing:** Implements an `IfCondition` activity to allow copying only non-empty files.  
+4. **Dynamic File Handling:** Uses a `ForEach` loop to process multiple files dynamically.  
+5. **Optimized Data Transfer:** Ensures only meaningful data is transferred, reducing storage and compute costs.  
+
+➡️ **View Project**-->https://github.com/rrc0804/rrc-ade/blob/main/pl_ADF%20Non-Empty_FileCopy.zip
+
