@@ -67,3 +67,26 @@ Azure Blob Storage
 5. Optimized Data Flow: Uses Tabular Translator to structure JSON API responses into tabular format.
 
 ➡️ **View Project**--> https://github.com/rrc0804/rrc-ade/blob/main/pl_ingest_website_breach_rest_api_data.zip
+
+
+**Bulk Copy SQL Data to Azure Blob using Azure Data Factory**
+**Project Level**: Intermediate
+
+**Description**:
+Developed an Azure Data Factory (ADF) pipeline to bulk copy tables from an Azure SQL Database to Azure Blob Storage in a structured text format. The pipeline dynamically retrieves table names from the database and iterates through each table to export its data into separate .txt files in the Blob storage.
+
+**Tech Stack**:
+
+Azure Data Factory
+Azure SQL Database
+Azure Blob Storage
+
+**Key Features**:
+
+1. Automated Table Discovery: Uses a Lookup activity to fetch all table names from information_schema.tables.
+2. Dynamic Data Extraction: Uses a ForEach activity to iterate through tables dynamically.
+3. Bulk Data Transfer: Efficiently copies all records from each table using the Copy activity.
+4. Delimited Text Output: Stores data in CSV-like .txt files with headers in Azure Blob Storage.
+5. Schema Flexibility: Supports multiple tables with different schemas using parameterized dataset references.
+
+➡️ **View Project**--> https://github.com/rrc0804/rrc-ade/blob/main/pl_bulkcopy_SQL_to_blob.zip
