@@ -46,3 +46,24 @@ Developed an Azure Data Factory (ADF) pipeline to automate the transfer of non-e
 
 ➡️ **View Project**-->https://github.com/rrc0804/rrc-ade/blob/main/pl_ADF%20Non-Empty_FileCopy.zip
 
+**Website Breach Data Ingestion using Azure Data Factory**
+**Project Level**: Beginner
+
+**Description**:
+Developed an Azure Data Factory (ADF) pipeline to ingest website breach data from a REST API and store it in Azure Blob Storage as structured text files. The pipeline extracts key information about website breaches, including breach date, affected domain, and security status, ensuring efficient data ingestion and storage for further analysis.
+
+**Tech Stack**:
+
+Azure Data Factory
+REST API
+Azure Blob Storage
+
+**Key Features**:
+
+1. Automated API Ingestion: Fetches website breach data using ADF's REST Source.
+2. Pagination Handling: Supports RFC5988 pagination for retrieving large datasets efficiently.
+3. Dynamic Data Mapping: Extracts multiple attributes, such as BreachDate, Domain, PwnCount, and IsVerified.
+4. Structured Data Storage: Saves extracted data in Delimited Text format (.txt) within Azure Blob Storage.
+5. Optimized Data Flow: Uses Tabular Translator to structure JSON API responses into tabular format.
+
+➡️ **View Project**--> https://github.com/rrc0804/rrc-ade/blob/main/pl_ingest_website_breach_rest_api_data.zip
